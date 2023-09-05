@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>updateInfo.txt</file>
+        <file>img/background.png</file>
+        <file>style/MainWidget.css</file>
+    </qresource>
+</RCC>

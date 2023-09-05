@@ -1,0 +1,68 @@
+QWidget#MainWidgetBackgroundWidget {
+    background-image: url(":/img/background.png");
+
+}
+
+QWidget#MainWidgetShadeWidget {
+    background-color: rgba(0, 0, 0, 50);
+} 
+
+
+/* General style */
+* {
+    font-size: 14px;
+    color: rgb(233, 233, 233);
+}
+*:disabled {
+    color: rgb(174, 174, 174);
+}
+
+
+/* QPushButton style */
+QToolButton,
+QPushButton {
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+QToolButton:enabled,
+QPushButton:enabled {
+    border: 2px solid #7171ff;
+}
+QToolButton:disabled,
+QPushButton:disabled {
+    border: 1px solid #8f8f91;
+}
+QToolButton:enabled:hover,
+QPushButton:enabled:hover {
+    border: 2px solid #7171ff;
+    background-color: #7171ff;
+}
+
+
+/* QLineEdit style */
+QLineEdit {
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+QLineEdit:enabled {
+    border: 1px solid rgb(89, 211, 194);
+}
+QLineEdit:disabled {
+    border: 1px solid rgb(132, 132, 132);
+}
+QLineEdit::placeholder {
+    color: rgb(202, 26, 26);
+}
+
+/* QToolTip */
+QToolTip {
+    border: 1px solid darkkhaki;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 200;
+    color: #7171ff;
+    
+} 
